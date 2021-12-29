@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-size: 62.5%;
+}
+.top,
+.form,
+.post{
+  width: min(90%, 900px);
+  background-color: bisque;
+  margin: 0px auto;
+}
+.top h1 {
+  font-size: 5rem;
+  text-align: center;
+  color: rgb(20, 97, 13);
+}
+.cont {
+  width: min(90%, 900px);
+  background-color: rgba(196, 255, 223, 0.685);
+  margin: 0px auto;
+}
+.form p, .addedh {
+  font-size: 2rem;
+  text-align: center;
+  width:100%;
+}
+.form form, .form p{
+  margin: 0px auto;
+  width: 100%;
+  padding: 2rem 0px;
+  text-align: center;
+  font-size: 3rem;
+}
+.post{
+  display:flex;
+  margin:2em auto;
+  text-align: center;
+}
+.addeda{
+width:100%;
+}
+.form p{
+  font-size: 5rem;
+  text-align: center;
+  width:100%;
+}
